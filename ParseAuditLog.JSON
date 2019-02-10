@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "properties": {
+        "odata.metadata": {
+            "type": "string"
+        },
+        "value": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Identity": {
+                        "type": "string"
+                    },
+                    "AuditData": {
+                        "type": "string"
+                    },
+                    "CreationDate": {
+                        "type": "string"
+                    },
+                    "IsValid": {
+                        "type": "boolean"
+                    },
+                    "ObjectState": {
+                        "type": "string"
+                    },
+                    "Operations": {
+                        "type": "string"
+                    },
+                    "RecordType": {
+                        "type": "string"
+                    },
+                    "ResultCount": {
+                        "type": "number"
+                    },
+                    "ResultIndex": {
+                        "type": "number"
+                    },
+                    "UserIds": {
+                        "type": "string"
+                    },
+                    "ObjectIds": {},
+                    "IPAddresses": {}
+                },
+                "required": [
+                    "Identity",
+                    "AuditData",
+                    "CreationDate",
+                    "IsValid",
+                    "ObjectState",
+                    "Operations",
+                    "RecordType",
+                    "ResultCount",
+                    "ResultIndex",
+                    "UserIds",
+                    "ObjectIds",
+                    "IPAddresses"
+                ]
+            }
+        }
+    }
+}
+
