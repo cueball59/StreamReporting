@@ -1,0 +1,59 @@
+{
+    "type": "object",
+    "properties": {
+        "CreationTime": {
+            "type": "string"
+        },
+        "Id": {
+            "type": "string"
+        },
+        "ResultStatus": {
+            "type": "string"
+        },
+        "UserType": {
+            "type": "number"
+        },
+        "Version": {
+            "type": "number"
+        },
+        "UserId": {
+            "type": "string"
+        },
+        "ResourceUrl": {
+            "type": "string"
+        },
+        "ResourceTitle": {
+            "type": "string"
+        },
+        "EntityPath": {
+            "type": "string"
+        },
+        "OperationDetails": {
+            "type": "string"
+        },
+        "ClientApplicationId": {
+            "type": "string"
+        },
+        "ObjectId": {
+            "type": "string"
+        },
+        "ClientIP": {
+            "type": "string"
+        },
+        "RecordType": {
+            "type": "number"
+        },
+        "Operation": {
+            "type": "string"
+        },
+        "OrganizationId": {
+            "type": "string"
+        },
+        "UserKey": {
+            "type": "string"
+        },
+        "Workload": {
+            "type": "string"
+        }
+    }
+}
